@@ -1,0 +1,33 @@
+{
+    'type': 'websocket', 
+    'path': '/websocket/',
+     'raw_path': b'/websocket/', 
+     'root_path': '', 
+     'headers': [
+        (b'host', b'127.0.0.1:8000'), 
+        (b'user-agent', b'Mozilla/5.0 (X11; Linux x86_64; rv:141.0) Gecko/20100101 Firefox/141.0'), 
+        (b'accept', b'*/*'), 
+        (b'accept-language', b'en-US,en;q=0.5'), 
+        (b'accept-encoding', b'gzip, deflate, br, zstd'), 
+        (b'sec-websocket-version', b'13'), 
+        (b'origin', b'http://localhost:8000'), 
+        (b'sec-websocket-extensions', b'permessage-deflate'), 
+        (b'sec-websocket-key', b'xY5TMXClVn2eDU/U0RvG1w=='), 
+        (b'connection', b'keep-alive, Upgrade'), 
+        (b'sec-fetch-dest', b'empty'), (b'sec-fetch-mode', b'websocket'), 
+        (b'sec-fetch-site', b'cross-site'), 
+        (b'pragma', b'no-cache'), 
+        (b'cache-control', b'no-cache'), 
+        (b'upgrade', b'websocket')
+    ],
+    'query_string': b'',
+    'client': ['127.0.0.1', 42806],
+    'server': ['127.0.0.1', 8000],
+    'subprotocols': [],
+    'asgi': {'version': '3.0'},
+    'path_remaining': '',
+    'url_route': {
+        'args': (),
+        'kwargs': {}
+    }
+}
